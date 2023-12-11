@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+}
+/*************** individual tags styling*************/
+.black{
+    color:black;
+}
+.cyan{
+    color: cyan;
+}
+.purple{
+    color: purple;
+}
+.head{
+    font-style: italic;
+    font-size:x-large;
+    font-weight: 815;
+}
+.para1,.para2{
+    font-size: small;
+    line-height: 180%;
+}
+.image{
+    width: 70%;
+    object-fit: contain;
+}
+.image{
+    width:100%;
+}
+
+.heads{
+    font-weight: 775;
+    color: grey;
+}
+.heads:hover{
+    color: purple;
+    font-weight: 775;
+    text-decoration: underline;
+}
+.continue{
+    border: 1px solid purple;
+    border-radius: 8px;
+    text-align: center;
+}
+.or{
+    text-align: center;
+    font-size: 85%;
+    font-weight: 785;
+}
+a{
+    font-weight: 770;
+    text-decoration: none;
+    color:black;
+}
+.info input{
+    width: 100%;
+}
+
+/*************** containers styling *******************/
+/*****styling written in ascending order of containers size*****/
+
+.headContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+}
+.remember_forgot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    margin: 2%;
+    padding: 2%;
+    padding-left: 15%;
+}
+.signInBody{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 270px;
+    margin: 2%;
+}
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+    padding-right: 1%;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 2%;
+    background-color: rgb(250, 238, 250);
+}
+@media (max-width: 800px){
+    .part1{
+        flex-direction: column;
+    }
+}
+

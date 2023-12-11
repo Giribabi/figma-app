@@ -1,0 +1,50 @@
+.icon{
+    height: 80%;
+    width: 8%;
+}
+#heading{
+    font-weight: 800;
+    display: inline;
+    margin-left: 10px;
+}
+.content{
+    font-size: small;
+}
+.btn{
+    font-size:smaller;
+    font-weight: 600;
+    color: purple;
+    border: 3px solid purple;
+    width: fit-content;
+    height: fit-content;
+}
+.fullCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 5%;
+    border: 2px solid rgb(219, 219, 219);
+    box-shadow: 1x 1px grey inset;
+}
+/* for 'Add' component*/
+.logo{
+    display: inline;
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+    background-color: rgb(4, 226, 226);
+    padding: 0.2px 8.5px;
+    border-radius: 5em;
+}
+/* for 'Testimonials' component*/
+.logo1{
+    display: inline;
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+    background-color: rgb(4, 226, 226);
+    padding: 0px 9.5px 1px 9.5px;
+    border-radius: 5em;
+    rotate: 180deg;
+}

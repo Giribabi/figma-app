@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+.foot{
+    text-align: center;
+    font-size: 90%;
+    font-weight: 600;
+    background-color: rgb(233, 202, 251);
+}
+.c{
+    font-size: small;
+    border: 1px solid black;
+    padding: 0.1%;
+    border-radius: 100%;
+    margin: 3px;
+    font-weight: 700;
+}

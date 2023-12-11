@@ -1,0 +1,27 @@
+.toggle_button{
+    display: none;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
+.searchbar{
+    height: 75%;
+}
+.sidebars{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+@media (max-width: 800px){
+    .explore,.hobbies,.bookmark,.cart,.signIn{
+        display: none;
+    }
+    .toggle_button{
+        display: inline-block;
+    }
+    .searchbar{
+        display: none;
+    }
+}
