@@ -62,7 +62,7 @@ a {
 /*****styling written in ascending order of containers size*****/
 
 .headContainer {
-    width: 200%;
+    width: 140%;
     max-width: 300px;
     display: flex;
     flex-direction: row;
@@ -76,17 +76,21 @@ a {
 .signin {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    width: 50%;
+    align-items: center;
+    width: 70%;
     margin: 2%;
     padding: 2%;
-    padding-left: 15%;
+}
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .signInBody {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 200%;
+    width: 140%;
     margin: 2%;
     max-width: 300px;
 }
@@ -95,12 +99,12 @@ a {
     flex-direction: column;
     justify-content: space-around;
     padding: 5%;
-    max-width: 750px;
+    max-width: 50vw;
 }
 .part1 {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-around;
     padding: 1%;
     margin: 2%;
     background-color: rgb(250, 238, 250);
@@ -108,5 +112,8 @@ a {
 @media (max-width: 800px) {
     .part1 {
         flex-direction: column;
+    }
+    .contentContainer {
+        max-width: 750px;
     }
 }
