@@ -38,14 +38,16 @@ function Card({ type }) {
             break;
     }
     return (
-        <div className={`fullCard ${type}`}>
-            <div>
-                <img src={image} className="icon" alt="people_image" />
-                <div id="heading">{type}</div>
+        <div className="fullcard-container">
+            <div className={`fullCard ${type}`}>
+                <div>
+                    <img src={image} className="icon" alt="people_image" />
+                    <div id="heading">{type}</div>
+                </div>
+                <div className="content">{details}</div>
+                <br />
+                <div className="btn">{button_text}</div>
             </div>
-            <div className="content">{details}</div>
-            <br />
-            <div className="btn">{button_text}</div>
         </div>
     );
 }

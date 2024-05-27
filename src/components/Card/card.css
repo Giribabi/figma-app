@@ -21,6 +21,7 @@
 .fullCard,
 .fullCard-Add {
     display: flex;
+    width: 75%;
     flex-direction: column;
     justify-content: space-between;
     margin: 15px;
@@ -89,4 +90,9 @@
 .Program:hover {
     color: white;
     background-color: darkcyan;
+}
+.fullcard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
