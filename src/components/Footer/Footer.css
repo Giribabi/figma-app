@@ -1,55 +1,58 @@
-.head1,.head2,.head3{
+.head1,
+.head2,
+.head3 {
     font-style: italic;
-    font-size:xx-large;
+    font-size: xx-large;
     font-weight: 600;
 }
-.head2{
+.head2 {
     color: rgb(201, 148, 281);
 }
-.head3{
+.head3 {
     color: rgb(0, 215, 215);
 }
-.start{
+.start {
+    display: inline-block;
     color: white;
     background-color: rgb(154, 94, 210);
     padding: 1% 2%;
     border-radius: 5px;
-    width: fit-content;
     margin: 2% 0%;
 }
-.image img{
+.image img {
     width: 100%;
-    padding:5%;
-}
-a{
-    cursor: pointer;
-}
-.footerHeading{
     padding: 5%;
 }
-.heading{
+a {
+    cursor: pointer;
+}
+.footerHeading {
+    padding: 5%;
+}
+.heading {
     font-weight: 800;
     font-size: 90%;
     padding: 10% 0%;
 }
-.links a{
+.links a {
     font-size: 90%;
     font-weight: 50;
     display: block;
 }
-.icons img{
+.icons img {
     height: 30px;
     width: 30px;
     cursor: pointer;
 }
-.footer_bar{
+.footer_bar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 5%;
 }
-@media (max-width: 800px){
-    .footer_bar{
+@media (max-width: 500px) {
+    .footer_bar {
         flex-direction: column;
     }
 }

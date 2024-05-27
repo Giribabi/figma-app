@@ -1,76 +1,79 @@
-*{
+* {
     font-family: sans-serif;
 }
 /*************** individual tags styling*************/
-.black{
-    color:black;
+.black {
+    color: black;
 }
-.cyan{
+.cyan {
     color: cyan;
 }
-.purple{
+.purple {
     color: purple;
 }
-.head{
+.head {
     font-style: italic;
-    font-size:x-large;
+    font-size: x-large;
     font-weight: 815;
 }
-.para1,.para2{
+.para1,
+.para2 {
     font-size: small;
     line-height: 180%;
 }
-.image{
+.image {
     width: 70%;
     object-fit: contain;
 }
-.image{
-    width:100%;
+.image {
+    width: 100%;
 }
 
-.heads{
+.heads {
     font-weight: 775;
     color: grey;
+    padding: 1%;
 }
-.heads:hover{
+.heads:hover {
     color: purple;
     font-weight: 775;
-    text-decoration: underline;
+    cursor: pointer;
 }
-.continue{
+.continue {
     border: 1px solid purple;
     border-radius: 8px;
     text-align: center;
 }
-.or{
+.or {
     text-align: center;
     font-size: 85%;
     font-weight: 785;
 }
-a{
+a {
     font-weight: 770;
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.info input{
+.info input {
     width: 100%;
 }
 
 /*************** containers styling *******************/
 /*****styling written in ascending order of containers size*****/
 
-.headContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 120px;
-}
-.remember_forgot{
+.headContainer {
+    width: 200%;
+    max-width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.signin{
+.remember_forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.signin {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -79,31 +82,31 @@ a{
     padding: 2%;
     padding-left: 15%;
 }
-.signInBody{
+.signInBody {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 270px;
+    width: 200%;
     margin: 2%;
+    max-width: 300px;
 }
-.contentContainer{
+.contentContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 5%;
-    padding-right: 1%;
+    max-width: 750px;
 }
-.part1{
+.part1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 1%;
     margin: 2%;
     background-color: rgb(250, 238, 250);
 }
-@media (max-width: 800px){
-    .part1{
+@media (max-width: 800px) {
+    .part1 {
         flex-direction: column;
     }
 }
-

@@ -1,27 +1,39 @@
-.toggle_button{
+.toggle_button {
     display: none;
 }
-.search{
+.search {
     display: flex;
     flex-direction: row;
 }
-.searchbar{
+.searchbar {
     height: 75%;
 }
-.sidebars{
+.sidebars {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 5%;
 }
-@media (max-width: 800px){
-    .explore,.hobbies,.bookmark,.cart,.signIn{
+.btn-primary {
+    padding: 0em;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-primary:hover {
+    background-color: transparent;
+}
+@media (max-width: 800px) {
+    .explore,
+    .hobbies,
+    .bookmark,
+    .cart,
+    .signIn {
         display: none;
     }
-    .toggle_button{
+    .toggle_button {
         display: inline-block;
     }
-    .searchbar{
+    .searchbar {
         display: none;
     }
 }

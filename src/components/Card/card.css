@@ -1,34 +1,44 @@
-.icon{
+.icon {
     height: 80%;
     width: 8%;
+    padding: 0%;
+    border-radius: 3px;
 }
-#heading{
+#heading {
     font-weight: 800;
     display: inline;
     margin-left: 10px;
 }
-.content{
+.content {
     font-size: small;
 }
-.btn{
-    font-size:smaller;
+.btn {
+    font-size: smaller;
     font-weight: 600;
     color: purple;
     border: 3px solid purple;
-    width: fit-content;
-    height: fit-content;
 }
-.fullCard{
+.fullCard,
+.fullCard-Add {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 15px;
     padding: 5%;
     border: 2px solid rgb(219, 219, 219);
-    box-shadow: 1x 1px grey inset;
+    border-radius: 5px;
+    cursor: pointer;
 }
+.fullCard-Add > .btn:hover {
+    color: white;
+    background-color: purple;
+}
+/* .btn:hover {
+    color: white;
+    background-color: purple;
+} */
 /* for 'Add' component*/
-.logo{
+.logo {
     display: inline;
     color: white;
     font-size: x-large;
@@ -38,7 +48,7 @@
     border-radius: 5em;
 }
 /* for 'Testimonials' component*/
-.logo1{
+.logo1 {
     display: inline;
     color: white;
     font-size: x-large;
@@ -47,4 +57,36 @@
     padding: 0px 9.5px 1px 9.5px;
     border-radius: 5em;
     rotate: 180deg;
+}
+.fullCard:hover > .btn {
+    color: white;
+    border: 3px solid white;
+}
+.People {
+    border: 2px solid purple;
+}
+.People:hover {
+    color: white;
+    background-color: purple;
+}
+.Place {
+    border: 2px solid yellowgreen;
+}
+.Place:hover {
+    color: white;
+    background-color: yellowgreen;
+}
+.Product {
+    border: 2px solid rgb(221, 21, 21);
+}
+.Product:hover {
+    color: white;
+    background-color: rgb(221, 21, 21);
+}
+.Program {
+    border: 2px solid darkcyan;
+}
+.Program:hover {
+    color: white;
+    background-color: darkcyan;
 }

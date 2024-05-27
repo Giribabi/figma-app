@@ -1,13 +1,13 @@
-*{
+* {
     font-family: sans-serif;
 }
-.foot{
+.foot {
     text-align: center;
     font-size: 90%;
     font-weight: 600;
     background-color: rgb(233, 202, 251);
 }
-.c{
+.c {
     font-size: small;
     border: 1px solid black;
     padding: 0.1%;
